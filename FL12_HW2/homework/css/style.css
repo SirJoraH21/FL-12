@@ -61,6 +61,7 @@ li.box.box-bg:hover {
 .blocks p:nth-child(3) {
     letter-spacing: 5px;
     word-spacing: 10px;
+    font-style: italic;
 }
 
 /* .blocks p:nth-child(2) {
@@ -235,5 +236,8 @@ section.blocks .tm-content-box:nth-child(3) {
     section.blocks,
     footer {
         background-color: #fff;
+    }
+    #ideas {
+        margin-bottom: 0px;
     }
 }
