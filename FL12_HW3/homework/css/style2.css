@@ -13,6 +13,7 @@ header {
   padding-left: 192px;
   padding-top: 20px;
   margin-bottom: 24px;
+  border-radius: 0 0 39% 0;
 }
 header .header-wrap {
   width: 50%;
@@ -31,8 +32,9 @@ body {
   margin-right: 15px;
 }
 .landing-logo p {
-  font-size: 23px;
   font-family: "Fresca", sans-serif;
+  color: white;
+  font-size: 23px;
   font-weight: bold;
 }
 .landing-logo p span {
@@ -57,6 +59,7 @@ body {
   font-size: 17px;
   line-height: 25px;
   font-family: "Fresca", sans-serif;
+  color: white;
   white-space: pre;
   position: relative;
   left: -41px;
@@ -125,7 +128,9 @@ body {
 }
 .section_card div .section_card_text {
   line-height: 25px;
+  text-align: justify;
   font-family: "Fresca", sans-serif;
+  color: white;
 }
 .section_card div .section_link {
   color: white;
@@ -158,11 +163,11 @@ footer {
   background-color: #3b3f50;
 }
 footer .footer-wrap {
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 0 120px;
   font-family: "Fresca", sans-serif;
+  color: white;
 }
 footer .footer-wrap .footer_text {
   display: block;
