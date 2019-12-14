@@ -136,6 +136,7 @@ body {
 
         .section_card_text {
             line-height: 25px;
+            text-align: justify;
             @include secondary-text();
         }
 
