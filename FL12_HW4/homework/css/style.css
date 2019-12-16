@@ -25,6 +25,7 @@ header .wrapper-dark .box {
 }
 header .wrapper-dark .box h1 {
   color: #fff;
+  text-align: center;
   font-size: 5.4em;
 }
 header .wrapper-dark .box p {
@@ -56,6 +57,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 999;
 }
 nav .wrapper {
   display: flex;
@@ -82,7 +84,7 @@ nav .logo {
 
 section {
   width: 59%;
-  min-width: 900px;
+  min-width: 880px;
   margin: 0 auto 9.4%;
 }
 section img {
@@ -132,12 +134,27 @@ footer {
   background: #000;
   width: 100%;
   height: 400px;
+  padding: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   color: #fff;
+}
+footer .wrapper {
+  width: 66%;
+  min-width: 880px;
+  display: flex;
+  justify-content: space-between;
 }
 footer .box {
   width: 40%;
+  padding-top: 60px;
 }
-
-/*# sourceMappingURL=style.css.map */
+footer .box h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+footer .box p {
+  margin: 15px 0;
+  font-size: 1.3em;
+  color: gray;
+}
