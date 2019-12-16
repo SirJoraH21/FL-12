@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/home-bg.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 11.7%;
+}
+header .wrapper-dark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .wrapper-dark .box {
+  position: relative;
+  top: 13%;
+}
+header .wrapper-dark .box h1 {
+  color: #fff;
+  font-size: 5.4em;
+}
+header .wrapper-dark .box p {
+  color: #cbbf55;
+  text-align: center;
+  margin: 18px 0 62px;
+  letter-spacing: 3px;
+}
+
+.btn {
+  display: block;
+  color: #000;
+  margin: 0 auto;
+  padding: 17px 0;
+  text-decoration: none;
+  text-align: center;
+  width: 190px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .wrapper {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+nav .nav-link {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: gray;
+  margin: 0 3%;
+  transition: 0.2s;
+}
+nav .nav-link:hover {
+  color: #cbbf55;
+}
+nav .logo {
+  color: gray;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-decoration: none;
+}
+
+section {
+  width: 59%;
+  min-width: 900px;
+  margin: 0 auto 9.4%;
+}
+section img {
+  width: 100%;
+  margin-bottom: 42px;
+}
+section h2 {
+  font-size: 2.2em;
+  letter-spacing: 0.4px;
+  margin-bottom: 14px;
+}
+section p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  margin-bottom: 40px;
+  color: gray;
+}
+section .btn {
+  border: 1px solid gray;
+  color: gray;
+  margin: 0;
+  width: 222px;
+  height: 59px;
+  padding: 21px 0;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.author-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+.author-info span {
+  margin: 0 10px;
+  letter-spacing: 2px;
+}
+
+footer {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+footer .box {
+  width: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
