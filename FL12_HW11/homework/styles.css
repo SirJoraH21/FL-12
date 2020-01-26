@@ -1,0 +1,33 @@
+.folder:hover,
+.file:hover {
+    background-color: #ececec;
+}
+
+.material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.empty_folder {
+    font-style: italic;
+}
+
+.folder i {
+    color: #ffff3a;
+}
+
+.file i {
+    color: #808080;
+}
+
+div {
+    cursor: pointer;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: block;
+}
